@@ -21,11 +21,11 @@ The program takes as input a formatted ENSDF file, for example [Ni63.txt](http:/
 ```
 C:\...> betashape Ni63.txt
 ```
-Running the benchmark calculations is recommended at first use of the program. 
+Running the benchmark calculations is recommended at first use of the program:
 ```
 C:\...> mybench.bat
 ```
-Various options are available. In the previous example, one can ask in addition an update of the Q-value (from AME2020), a &beta; spectrum with a constant energy step of 0.5 keV, the corresponding &nu; spectrum, and a CSV file:
+Various options are available. In the previous example, one can ask in addition for an update of the Q-value (from AME2020), a &beta; spectrum with a constant energy step of 0.5 keV, the corresponding &nu; spectrum, and a CSV file:
 ```
 C:\...> betashape Ni63.txt -qval myEstep=0.5 nu=1 -csv
 ```
@@ -47,13 +47,16 @@ Following the [24<sup>th</sup> NSDD meeting](https://conferences.iaea.org/event/
 * Treatment of __non-numeric uncertainties__ (`LT`, `GT`, `LE`, `GE`, `AP`, `CA`, `SY`), and __asymmetric uncertainties__ (with the `-asym` option) via the Min-Max method.
 * Modification of __forbidenness assignment__
   * Initial and final J<sup>&pi;</sup> unambiguously defined: single J, single &pi; for each level, `()` and `[]` accepted.
+
     &rarr; Allowed or forbidden unique transition treated correctly.
+
     &rarr; Forbidden non-unique transition treated as transition of same &Delta;J ignoring spin change (also known as &xi;-approximation)
     * 1<sup>st</sup> forbidden non-unique as allowed.
-    * 2<sup>nd</sup> forbidden non-unique as 1^st^ forbidden unique.
-    * 3<sup>rd</sup> forbidden non-unique as 2^nd^ forbidden unique.
+    * 2<sup>nd</sup> forbidden non-unique as <sup>st</sup> forbidden unique.
+    * 3<sup>rd</sup> forbidden non-unique as 2<sup>nd</sup> forbidden unique.
     * etc.
   * Initial and final J defined but at least one parity undefined  
+
     &rarr; Transition treated according to the &xi;-approximation.
   * Otherwise, transition treated as allowed: initial and final J undefined; unplaced transitions; several J or &pi; in at least one level.
 * Treatment of __branching ratios__
