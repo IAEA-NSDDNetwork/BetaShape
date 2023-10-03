@@ -38,7 +38,7 @@ More information can be found in the [Readme.txt](http://www.lnhb.fr/software/Be
 
 ## Change history
 #### Version 2.3 (2023/09)
-Following the [24<sup>th</sup> NSDD meeting](https://conferences.iaea.org/event/323/) held at the Australian National University in Canberra (24-28 October 2022) and further discussions, the following changes were implemented.
+Following the [24<sup>th</sup> NSDD meeting](https://conferences.iaea.org/event/323/) held at the Australian National University in Canberra (24-28 October 2022) and further discussions, the changes below have been implemented.
 * Provision of:
   - __*f*-values__ in CSV files.
   - __mean energy of the emitted neutrinos__ in CSV files.
