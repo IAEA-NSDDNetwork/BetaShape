@@ -17,7 +17,7 @@ The **packages** directory contains the executables for Windows (10), macOS (Mon
 
 ## Quick start
 
-The program takes as input a formatted ENSDF file, for example [Ni63.txt](http://www.lnhb.fr/nuclides/Ni-63.txt) for ^63^Ni decay. With default options, it is simply run in Windows typping: 
+The program takes as input a formatted ENSDF file, for example [Ni63.txt](http://www.lnhb.fr/nuclides/Ni-63.txt) for <sup>63</sup>Ni decay. With default options, it is simply run in Windows typping: 
 ```
 C:\...> betashape Ni63.txt
 ```
