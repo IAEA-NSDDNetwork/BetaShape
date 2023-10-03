@@ -46,19 +46,19 @@ Following the [24<sup>th</sup> NSDD meeting](https://conferences.iaea.org/event/
 * **Rounding limit** can be changed via the option `unc_digit=X` with `X` from 1 to 99 (50 by default).
 * Treatment of __non-numeric uncertainties__ (`LT`, `GT`, `LE`, `GE`, `AP`, `CA`, `SY`), and __asymmetric uncertainties__ (with the `-asym` option) via the Min-Max method.
 * Modification of __forbidenness assignment__
-  * Initial and final _J<sup>&pi;</sup>_ unambiguously defined: single _J_, single _&pi;_ for each level, `()` and `[]` accepted.
+  * Initial and final J<sup>&pi;</sup> unambiguously defined: single J, single &pi; for each level, `()` and `[]` accepted.
 
     &rarr; Allowed or forbidden unique transition treated correctly.
 
-    &rarr; Forbidden non-unique transition treated as transition of same _&Delta;J_ ignoring spin change (also known as &xi;-approximation)
+    &rarr; Forbidden non-unique transition treated as transition of same &Delta;J ignoring spin change (also known as &xi;-approximation)
     * 1<sup>st</sup> forbidden non-unique as allowed.
     * 2<sup>nd</sup> forbidden non-unique as <sup>st</sup> forbidden unique.
     * 3<sup>rd</sup> forbidden non-unique as 2<sup>nd</sup> forbidden unique.
     * etc.
-  * Initial and final _J_ defined but at least one parity undefined  
+  * Initial and final J defined but at least one parity undefined  
 
     &rarr; Transition treated according to the &xi;-approximation.
-  * Otherwise, transition treated as allowed: initial and final _J_ undefined; unplaced transitions; several _J_ or _&pi;_ in at least one level.
+  * Otherwise, transition treated as allowed: initial and final J undefined; unplaced transitions; several J or &pi; in at least one level.
 * Treatment of __branching ratios__
 `BR` and `NB` from N and PN records are taken into account to determine the normalization factor, and their uncertainties are propagated.
 
