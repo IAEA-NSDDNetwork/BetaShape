@@ -1,6 +1,4 @@
-# BetaShape 
-[//]: <> (![LNHB logo](http://www.lnhb.fr/img/logo-lnhb.png))
-<img src="http://www.lnhb.fr/img/logo-lnhb.png"  width="60%" height="30%">
+# BetaShape <img src="http://www.lnhb.fr/img/logo-lnhb.png"  width="60%" height="30%">
 The BetaShape program calculates **beta and electron capture decays**, and provides for each transition: 
 * Energy spectra of the emitted &beta; and &nu; particles.
 * Capture probabilities and capture-to-positron ratios for all subshells.
