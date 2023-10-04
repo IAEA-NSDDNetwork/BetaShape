@@ -1,4 +1,4 @@
-# BetaShape ![LNHB logo](http://www.lnhb.fr/img/logo-lnhb.png)
+# BetaShape ![LNHB logo](http://www.lnhb.fr/img/logo-lnhb.png height="50%" width="50%")
 The BetaShape program calculates **beta and electron capture decays**, and provides for each transition: 
 * Energy spectra of the emitted &beta; and &nu; particles.
 * Capture probabilities and capture-to-positron ratios for all subshells.
@@ -17,7 +17,7 @@ The **packages** directory contains the executables for Windows (10), macOS (Mon
 
 ## Quick start
 
-The program takes as input a formatted ENSDF file, for example [Ni63.txt](http://www.lnhb.fr/nuclides/Ni-63.txt) for <sup>63</sup>Ni decay. With default options, it is simply run in Windows typping: 
+The program takes as input a formatted ENSDF file, for example [Ni63.txt](http://www.lnhb.fr/nuclides/Ni-63.txt) for <sup>63</sup>Ni decay. With default options, it is simply run in Windows typing: 
 ```
 C:\...> betashape Ni63.txt
 ```
@@ -44,8 +44,8 @@ Following the [24<sup>th</sup> NSDD meeting](https://conferences.iaea.org/event/
   - __mean energy of the emitted neutrinos__ in CSV files.
   - __experimental shape factors__ in updated ENSDF files.
 * **Rounding limit** can be changed via the option `unc_digit=X` with `X` from 1 to 99 (50 by default).
-* Treatment of __non-numeric uncertainties__ (`LT`, `GT`, `LE`, `GE`, `AP`, `CA`, `SY`), and __asymmetric uncertainties__ (with the `-asym` option) via the Min-Max method.
-* Modification of __forbidenness assignment__
+* Handling of __non-numeric uncertainties__ (`LT`, `GT`, `LE`, `GE`, `AP`, `CA`, `SY`), and __asymmetric uncertainties__ (with the `-asym` option) via the Min-Max method.
+* Modification of __forbiddenness assignment__
   * Initial and final J<sup>&pi;</sup> unambiguously defined: single J, single &pi; for each level, `()` and `[]` accepted.
 
     &rarr; Allowed or forbidden unique transition treated correctly.
@@ -55,11 +55,11 @@ Following the [24<sup>th</sup> NSDD meeting](https://conferences.iaea.org/event/
     * 2<sup>nd</sup> forbidden non-unique as 1<sup>st</sup> forbidden unique.
     * 3<sup>rd</sup> forbidden non-unique as 2<sup>nd</sup> forbidden unique.
     * etc.
-  * Initial and final J defined but at least one parity undefined  
+  * Initial and final J defined but at least one parity undefined.
 
     &rarr; Transition treated according to the &xi;-approximation.
   * Otherwise, transition treated as allowed: initial and final J undefined; unplaced transitions; several J or &pi; in at least one level.
-* Treatment of __branching ratios__
+* Handling of __branching ratios__
 `BR` and `NB` from N and PN records are taken into account to determine the normalization factor, and their uncertainties are propagated.
 
 _Nota Bene_: For an EC/B+ transition, the splitting of the branch is calculated and the EC and B+ intensities are updated. Their uncertainties do include the uncertainty on the normalization factor. There is a risk of inconsistency because of multiple counting:
