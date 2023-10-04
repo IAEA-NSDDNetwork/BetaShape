@@ -73,6 +73,6 @@ Neither the author nor anybody else makes any warranty, express or implied, or a
 
 <table border="0">
 <tr>
-<td align="center"><img src="http://www.lnhb.fr/wp-content/uploads/2023/02/Logo-CEA-150x150.png"  width="65%" height="65%"></td><td align="center"><img src="http://www.lnhb.fr/wp-content/uploads/2018/01/logo-lne-150x150.png"  width="150%" height="150%"></td><td align="center"><img src="http://www.lnhb.fr/img/logo-lnhb.png"  width="100%" height="100%"></td>
+<td align="center"><img src="http://www.lnhb.fr/wp-content/uploads/2023/02/Logo-CEA-150x150.png"  width="65%" height="65%"></td><td align="center"><img src="https://www.lne.fr/themes/custom/lne/images/logo-descripteur.svgz"  width="150%" height="150%"></td><td align="center"><img src="http://www.lnhb.fr/img/logo-lnhb.png"  width="100%" height="100%"></td>
 </tr>
 </table>
