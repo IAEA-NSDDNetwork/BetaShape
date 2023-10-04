@@ -69,4 +69,9 @@ _Nota Bene_: For an EC/B+ transition, the splitting of the branch is calculated 
 ## Disclaimer
 Neither the author nor anybody else makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness or usefulness of any information disclosed, or represents that its use would not infringe privately owned rights.
 
-| <img src="http://www.lnhb.fr/wp-content/uploads/2023/02/Logo-CEA-150x150.png"  width="70%" height="70%"> | <img src="http://www.lnhb.fr/wp-content/uploads/2018/01/logo-lne-150x150.png"  width="100%" height="100%"> | <img src="http://www.lnhb.fr/img/logo-lnhb.png"  width="100%" height="100%"> |
+## 
+<table border="0">
+<tr>
+<td><img src="http://www.lnhb.fr/wp-content/uploads/2023/02/Logo-CEA-150x150.png"  width="70%" height="70%"></td><td align="right"><img src="http://www.lnhb.fr/wp-content/uploads/2018/01/logo-lne-150x150.png"  width="100%" height="100%"></td><td align="right"><img src="http://www.lnhb.fr/img/logo-lnhb.png"  width="100%" height="100%"></td>
+</tr>
+</table>
