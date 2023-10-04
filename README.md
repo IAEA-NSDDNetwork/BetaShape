@@ -1,4 +1,4 @@
-# BetaShape
+# BetaShape ![LNHB logo](http://www.lnhb.fr/img/logo-lnhb.png)
 The BetaShape program calculates **beta and electron capture decays**, and provides for each transition: 
 * Energy spectra of the emitted &beta; and &nu; particles.
 * Capture probabilities and capture-to-positron ratios for all subshells.
@@ -52,7 +52,7 @@ Following the [24<sup>th</sup> NSDD meeting](https://conferences.iaea.org/event/
 
     &rarr; Forbidden non-unique transition treated as transition of same &Delta;J ignoring spin change (also known as &xi;-approximation)
     * 1<sup>st</sup> forbidden non-unique as allowed.
-    * 2<sup>nd</sup> forbidden non-unique as <sup>st</sup> forbidden unique.
+    * 2<sup>nd</sup> forbidden non-unique as 1<sup>st</sup> forbidden unique.
     * 3<sup>rd</sup> forbidden non-unique as 2<sup>nd</sup> forbidden unique.
     * etc.
   * Initial and final J defined but at least one parity undefined  
