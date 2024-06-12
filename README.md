@@ -37,6 +37,11 @@ More information can be found in the [Readme.txt](http://www.lnhb.fr/software/Be
 **Electron captures**: [2019MO35] [X. Mougeot, Applied Radiation and Isotopes 154, 108884 (2019)](https://doi.org/10.1016/j.apradiso.2019.108884)
 
 ## Change history
+#### Version 2.4 (2024/06)
+* Acceleration of electron capture calculations by a factor of 50.
+* An environment variable (`BSINSTALL`) can be defined to run from any directory.
+* Validation of the code on the entire ENSDF database, archive version of January 2024.
+
 #### Version 2.3.1 (2023/12)
 * A few bugs fixed in generated CSV files.
 * Insertion of a comment line with the code version in updated ENSDF files.
